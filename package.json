@@ -1,0 +1,26 @@
+{
+  "name": "satile-front",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-svelte": "^4.0.9",
+    "sass": "^1.54.4",
+    "svelte": "^3.49.0"
+  },
+  "dependencies": {
+    "svelte-routing": "^1.6.0"
+  }
+}
