@@ -15,12 +15,16 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/polyfill": "^7.12.1",
+    "@types/dotenv": "^8.2.0",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-svelte": "^4.0.9",
     "sass": "^1.54.4",
     "svelte": "^3.49.0"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^1.35.6",
+    "src": "^1.1.2",
     "svelte-routing": "^1.6.0"
-  }
+  },
+  "type": "module"
 }
